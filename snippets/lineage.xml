@@ -58,5 +58,9 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-miku" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
+
+  <!-- Tools Repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
 </manifest>
