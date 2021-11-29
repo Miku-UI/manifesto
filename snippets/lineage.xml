@@ -5,4 +5,11 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
+  <!-- ANT -->
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+
+  <!-- External -->
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+
+
 </manifest>
