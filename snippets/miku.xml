@@ -26,6 +26,15 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" />
 
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="miku" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="miku" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" />
+  <project path="external/selinux" name="platform_external_selinux" remote="miku" />
+  <project path="external/colorkt" name="platform_external_colorkt" remote="miku" />
+  <project path="external/themelib" name="platform_external_themelib" remote="miku" />
+
   <!-- HALS -->
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
