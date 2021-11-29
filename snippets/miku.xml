@@ -22,6 +22,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- CAF -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="miku" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="miku" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="miku" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="miku" />
+
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" />
@@ -48,6 +55,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="miku" />
