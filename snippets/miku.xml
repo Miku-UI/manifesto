@@ -35,6 +35,15 @@
   <project path="external/colorkt" name="platform_external_colorkt" remote="miku" />
   <project path="external/themelib" name="platform_external_themelib" remote="miku" />
 
+  <!-- Framework -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="miku" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="miku" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="miku" />
+
+  <!-- General -->
+  <project path="vendor/miku" name="platform_vendor_miku" remote="miku" />
+  <project path="vendor/settings" name="platform_vendor_settings" remote="miku" />
+
   <!-- HALS -->
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
