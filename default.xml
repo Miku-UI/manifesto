@@ -1104,9 +1104,9 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Miku UI -->
+  <include name="snippets/remove.xml" />
   <include name="snippets/miku.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/remove.xml" />
   <include name="snippets/caf.xml" />
 
 </manifest>
