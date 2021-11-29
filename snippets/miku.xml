@@ -5,6 +5,23 @@
            revision="snow"
            fetch="https://github.com/Project-Mushroom" />
 
+  <!-- Build -->
+  <project path="art" name="platform_art" remote="miku" />
+  <project path="bionic" name="platform_bionic" remote="miku" />
+  <project path="build/make" name="platform_build" remote="miku">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="miku" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- HALS -->
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
