@@ -1105,5 +1105,6 @@
 
   <!-- Miku UI -->
   <include name="snippets/miku.xml" />
+  <include name="snippets/remove.xml" />
 
 </manifest>
