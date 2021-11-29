@@ -56,4 +56,7 @@
   <!-- Telephony -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-miku" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
+
 </manifest>
