@@ -70,10 +70,13 @@
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
 
+  <!-- Proton -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" /> 
+
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="miku" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="miku" />
   <project path="system/vold" name="platform_system_vold" remote="miku" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" clone-depth="1" />
 
 </manifest>
