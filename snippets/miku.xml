@@ -32,6 +32,9 @@
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="miku" />
 
   <!-- System Repos -->
+  <project path="system/core" name="platform_system_core" remote="miku" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="miku" />
+  <project path="system/vold" name="platform_system_vold" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
 
 </manifest>
