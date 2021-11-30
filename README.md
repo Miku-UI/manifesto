@@ -1,8 +1,10 @@
 # Miku UI
 
+![MikuUI](https://raw.githubusercontent.com/Project-Mushroom/platform_manifest/snow/img/MikuUI.png)
+
 Miku UI 是一个基于 AOSP-CAF 的系统。专注于性能优化与......
 
-> 唔？**Miku？**
+> **Miku？**
 
 **我要怎么开始捏！**
 
