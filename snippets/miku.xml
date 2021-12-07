@@ -48,6 +48,9 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="miku" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="miku" />
 
+  <!-- Gcc -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="miku" />
+
   <!-- General -->
   <project path="vendor/miku" name="platform_vendor_miku" remote="miku" />
   <project path="vendor/settings" name="platform_vendor_settings" remote="miku" />
