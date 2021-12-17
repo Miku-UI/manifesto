@@ -5,6 +5,10 @@
            revision="snow"
            fetch="https://github.com/Project-Mushroom" />
 
+  <remote  name="arrow-gitlab"
+	   fetch="https://gitlab.com/arrowos-project"
+	   revision="refs/heads/arrow-12.0" />
+
   <!-- Build -->
   <project path="art" name="platform_art" remote="miku" />
   <project path="bionic" name="platform_bionic" remote="miku" />
@@ -87,5 +91,8 @@
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="miku" />
   <project path="system/vold" name="platform_system_vold" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" clone-depth="1" />
+
+  <!-- GAPPS -->
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
 </manifest>
