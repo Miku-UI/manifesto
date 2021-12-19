@@ -37,6 +37,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" />
+  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="miku" />
