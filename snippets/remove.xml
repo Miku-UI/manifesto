@@ -91,6 +91,9 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/NetworkStack" />
 
+  <!-- Prebuilt -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
 
