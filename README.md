@@ -12,6 +12,9 @@ Miku UI 是一个基于 AOSP-CAF 的系统。专注于性能优化与......
 
 嗯、问题不大~因为我们现在没有服务器，所以也很欢迎你成为 Buildbot !
 
+在开始前，请先看看我们的[**官方 Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) ！
+
+
 首先，确认好自己是否准备好了编译环境呢？
 
 ## 部署编译环境
@@ -166,3 +169,6 @@ make diva
  * [**exTHmUI**](https://github.com/exthmui)
  * [**Weeb Project**](https://github.com/WeebProject)
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
+ * [**ProtonAOSP**](https://github.com/ProtonAOSP)
+ * [**Mokee**](https://github.com/Mokee)
+ * [**crDroid**](https://github.com/crdroidandroid)
