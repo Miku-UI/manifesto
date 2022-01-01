@@ -90,13 +90,13 @@
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
 
   <!-- Proton -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" /> 
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" clone-depth="1" /> 
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="miku" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="miku" />
   <project path="system/vold" name="platform_system_vold" remote="miku" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" clone-depth="1" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
 
   <!-- GAPPS -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
