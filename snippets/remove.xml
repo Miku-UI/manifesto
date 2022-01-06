@@ -47,11 +47,6 @@
   <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
-  <remove-project name="device/google/gs101" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs-common" />
-  <remove-project name="device/google/raviole" />
-  <remove-project name="device/google/raviole-kernel" />
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
