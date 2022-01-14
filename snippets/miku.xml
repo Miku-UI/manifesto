@@ -29,6 +29,8 @@
   <!-- CAF -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="miku" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="miku" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="miku" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
   <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="miku" />
