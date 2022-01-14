@@ -103,6 +103,9 @@
   <project path="system/vold" name="platform_system_vold" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
 
+  <!-- Themes -->
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="miku" />
+
   <!-- GAPPS -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
