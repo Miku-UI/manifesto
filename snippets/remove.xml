@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- Build -->
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
@@ -50,7 +53,9 @@
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/chromium-webview" />

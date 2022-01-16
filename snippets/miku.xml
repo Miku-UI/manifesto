@@ -9,6 +9,9 @@
 	   fetch="https://gitlab.com/arrowos-project"
 	   revision="refs/heads/arrow-12.0" />
 
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="miku" />
+
   <!-- Build -->
   <project path="art" name="platform_art" remote="miku" />
   <project path="bionic" name="platform_bionic" remote="miku" />
@@ -43,7 +46,9 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="miku" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="miku" />
+  <project path="external/mksh" name="platform_external_mksh" remote="miku" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" />
   <project path="external/selinux" name="platform_external_selinux" remote="miku" />
