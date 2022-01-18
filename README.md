@@ -1,3 +1,5 @@
+[**中文版**](https://github.com/Project-Mushroom/platform_manifest/blob/snow/READMECN.md)
+
 # Miku UI
 
 ![MikuUI](https://raw.githubusercontent.com/Project-Mushroom/platform_manifest/snow/img/MikuUI.png)
