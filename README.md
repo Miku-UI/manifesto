@@ -32,7 +32,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 > If you are using an ify-only-Device Configuration for building Miku UI , DO NOT RELEASE IT, FOR OWN USE ONLY.
 >
-> And please DO NOT Public your ify-only-Device Configuration, respect the origin author, plz.
+> And please DO NOT Public your ify-only-Device Configuration, respect the original author, plz.
 >
 > DO NOT RELEASE any build of Miku UI based on an ify-only-Device Configuration to any telegram channel or XDA Forum.
 > 
