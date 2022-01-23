@@ -100,6 +100,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
