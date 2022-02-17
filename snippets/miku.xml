@@ -50,6 +50,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="miku" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="miku" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" />
