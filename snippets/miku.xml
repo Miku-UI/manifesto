@@ -115,6 +115,7 @@
   <project path="system/core" name="platform_system_core" remote="miku" />
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="miku" />
   <project path="system/netd" name="platform_system_netd" remote="miku" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="miku" />
   <project path="system/vold" name="platform_system_vold" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
 
