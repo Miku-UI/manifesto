@@ -53,6 +53,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/mksh" />
@@ -91,6 +92,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/NetworkStack" />
 
   <!-- Prebuilt -->
@@ -105,6 +107,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/sepolicy" />
 
