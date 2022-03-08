@@ -5,17 +5,17 @@
            revision="snow"
            fetch="https://github.com/Project-Mushroom" />
 
+  <remote  name="mikuland"
+	   revision="snowland"
+	   fetch="https://github.com/Project-Mushroom-L" />
+
   <remote  name="arrow-gitlab"
 	   fetch="https://gitlab.com/arrowos-project"
 	   revision="refs/heads/arrow-12.0" />
 
-  <!-- Bootable -->
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="miku" />
-
   <!-- Build -->
-  <project path="art" name="platform_art" remote="miku" />
-  <project path="bionic" name="platform_bionic" remote="miku" />
-  <project path="build/make" name="platform_build" remote="miku">
+  <project path="bionic" name="platform_bionic" remote="mikuland" />
+  <project path="build/make" name="platform_build" remote="mikuland">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -24,7 +24,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="miku" >
+  <project path="build/soong" name="platform_build_soong" remote="mikuland" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -49,21 +49,14 @@
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
 
   <!-- External -->
-  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="miku" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
-  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
-  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="miku" />
-  <project path="external/mksh" name="platform_external_mksh" remote="miku" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
-  <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" />
-  <project path="external/selinux" name="platform_external_selinux" remote="miku" />
-  <project path="external/colorkt" name="platform_external_colorkt" remote="miku" />
-  <project path="external/themelib" name="platform_external_themelib" remote="miku" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
+  <project path="external/selinux" name="platform_external_selinux" remote="mikuland" />
 
   <!-- Framework -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="miku" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="miku" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="miku" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="mikuland" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="mikuland" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="mikuland" />
 
   <!-- Gcc -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="miku" />
@@ -71,8 +64,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="miku" />
 
   <!-- General -->
-  <project path="vendor/miku" name="platform_vendor_miku" remote="miku" />
-  <project path="vendor/settings" name="platform_vendor_settings" remote="miku" />
+  <project path="vendor/miku" name="platform_vendor_miku" remote="mikuland" />
+  <project path="vendor/settings" name="platform_vendor_settings" remote="mikuland" />
 
   <!-- HALS -->
   <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
@@ -87,40 +80,29 @@
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="miku" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="mikuland" />
 
   <!-- Miku Settings -->
-  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" />
+  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="miku" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="miku" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="miku" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="miku" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="miku" />
-  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="miku" />
-  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="miku" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mikuland" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="mikuland" />
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" />
-  <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="miku" />
-  <project path="packages/modules/NetworkStack" name="platform_packages_modules_NetworkStack" remote="miku" />
 
   <!-- Providers -->
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="mikuland" /> 
 
   <!-- Proton -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" clone-depth="1" /> 
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="mikuland" clone-depth="1" /> 
 
   <!-- System Repos -->
-  <project path="system/bpf" name="platform_system_bpf" remote="miku" />
-  <project path="system/bt" name="platform_system_bt" remote="miku" />
-  <project path="system/core" name="platform_system_core" remote="miku" />
-  <project path="system/netd" name="platform_system_netd" remote="miku" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="miku" />
-  <project path="system/vold" name="platform_system_vold" remote="miku" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
+  <project path="system/core" name="platform_system_core" remote="mikuland" />
+  <project path="system/vold" name="platform_system_vold" remote="mikuland" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="mikuland" />
 
   <!-- Themes -->
-  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="miku" />
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="mikuland" />
 
   <!-- GAPPS -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
