@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- External -->
-  <remove-project name="platform/external/chromium-webview" />
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- Build -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -45,7 +51,24 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/chromium-webview" />
+
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
+
   <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -60,5 +83,32 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
+
+  <!-- Prebuilt -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+  <!-- Providers -->
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+
+  <!-- System -->
+  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/sepolicy" />
 
 </manifest>
