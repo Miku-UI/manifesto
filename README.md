@@ -1,8 +1,8 @@
-[**中文版**](https://github.com/Project-Mushroom/platform_manifest/blob/snow/READMECN.md)
+[**中文版**](https://github.com/Project-Mushroom-L/manifesto/blob/snowland/READMECN.md)
 
-# Miku UI
+# Miku UI SnowLand
 
-![MikuUI](https://raw.githubusercontent.com/Project-Mushroom/platform_manifest/snow/img/MikuUI.png)
+![MikuUI](https://github.com/Project-Mushroom-L/manifesto/raw/snowland/img/MikuUI.png)
 
 Miku UI is an AOSP-Based Project focus on Performance and ... 
 
@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Project-Mushroom/platform_manifest -b snow
+repo init -u https://github.com/Project-Mushroom-L/manifesto -b snowland
 ```
 
 

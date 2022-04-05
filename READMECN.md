@@ -1,6 +1,6 @@
-# Miku UI
+# Miku UI SnowLand
 
-![MikuUI](https://raw.githubusercontent.com/Project-Mushroom/platform_manifest/snow/img/MikuUI.png)
+![MikuUI](https://github.com/Project-Mushroom-L/manifesto/raw/snowland/img/MikuUI.png)
 
 Miku UI 是一个基于 AOSP-CAF 的系统。专注于性能优化与......
 
@@ -9,8 +9,6 @@ Miku UI 是一个基于 AOSP-CAF 的系统。专注于性能优化与......
 **我要怎么开始捏！**
 
 什么？你原来是个 BuildBot 吗！
-
-嗯、问题不大~因为我们现在没有服务器，所以也很欢迎你成为 Buildbot !
 
 在开始前，请先看看我们的[**官方 Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) ！
 
@@ -96,7 +94,7 @@ cd ~/miku
 使用以下命令来初始化仓库：
 
 ```shell
-repo init -u https://github.com/Project-Mushroom/platform_manifest -b snow
+repo init -u https://github.com/Project-Mushroom-L/manifesto -b snowland
 ```
 
 开始同步源码：
