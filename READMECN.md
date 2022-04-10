@@ -94,7 +94,7 @@ cd ~/miku
 使用以下命令来初始化仓库：
 
 ```shell
-repo init -u https://github.com/Project-Mushroom-L/manifesto -b snowland
+repo init -u https://github.com/Miku-UI/manifesto -b snowland
 ```
 
 开始同步源码：
