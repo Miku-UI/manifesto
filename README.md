@@ -1,8 +1,8 @@
-[**中文版**](https://github.com/Project-Mushroom-L/manifesto/blob/snowland/READMECN.md)
+[**中文版**](https://github.com/Miku-UI/manifesto/blob/snowland/READMECN.md)
 
 # Miku UI SnowLand
 
-![MikuUI](https://github.com/Project-Mushroom-L/manifesto/raw/snowland/img/MikuUI.png)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/snowland/img/MikuUI.png)
 
 Miku UI is an AOSP-Based Project focus on Performance and ... 
 
