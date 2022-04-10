@@ -7,7 +7,7 @@
 
   <remote  name="mikuland"
 	   revision="snowland"
-	   fetch="https://github.com/Project-Mushroom-L" />
+	   fetch="https://github.com/Miku-UI" />
 
   <remote  name="arrow-gitlab"
 	   fetch="https://gitlab.com/arrowos-project"
