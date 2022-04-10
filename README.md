@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Project-Mushroom-L/manifesto -b snowland
+repo init -u https://github.com/Miku-UI/manifesto -b snowland
 ```
 
 
