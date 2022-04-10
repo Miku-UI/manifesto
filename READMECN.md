@@ -1,6 +1,6 @@
 # Miku UI SnowLand
 
-![MikuUI](https://github.com/Project-Mushroom-L/manifesto/raw/snowland/img/MikuUI.png)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/snowland/img/MikuUI.png)
 
 Miku UI 是一个基于 AOSP-CAF 的系统。专注于性能优化与......
 
