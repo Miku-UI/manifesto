@@ -97,6 +97,12 @@ cd ~/miku
 repo init -u https://github.com/Miku-UI/manifesto -b snowland
 ```
 
+使用以下命令来初始化仓库可以更节省时间与磁盘空间：
+
+```shell
+repo init -u https://github.com/Miku-UI/manifesto -b snowland --depth=1
+```
+
 开始同步源码：
 
 ```shell
