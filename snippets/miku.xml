@@ -49,6 +49,9 @@
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" />
 
   <!-- External -->
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="mikuland" />
+  <project path="external/libcxx" name="platform_external_libcxx" remote="mikuland" />
+  <project path="external/libevdev" name="platform_external_libevdev" remote="mikuland" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
   <project path="external/selinux" name="platform_external_selinux" remote="mikuland" />
@@ -81,6 +84,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="mikuland" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="mikuland" />
 
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" />
@@ -91,6 +95,10 @@
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="mikuland" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="mikuland" />
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="mikuland" />
 
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="mikuland" /> 

@@ -48,6 +48,8 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External -->
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/chromium-webview" />
@@ -58,6 +60,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
 
   <remove-project name="platform/hardware/qcom/msm8960" />
