@@ -30,17 +30,17 @@
   </project>
 
   <!-- CAF -->
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="miku" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="miku" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="mikuland" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="mikuland" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="miku" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="mikuland" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="miku" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="miku" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="miku" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="miku" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="mikuland" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="mikuland" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
-  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="miku" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="mikuland" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="mikuland" />
@@ -62,18 +62,18 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="mikuland" />
 
   <!-- Gcc -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="miku" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="miku" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="miku" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="mikuland" />
 
   <!-- General -->
   <project path="vendor/miku" name="platform_vendor_miku" remote="mikuland" />
   <project path="vendor/settings" name="platform_vendor_settings" remote="mikuland" />
 
   <!-- HALS -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
-  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_msm8996_display" groups="qcom,qcom_display,pdk-qcom" remote="miku" />
-  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_msm8996_media" groups="qcom,qcom_media,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_msm8996_display" groups="qcom,qcom_display,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_msm8996_media" groups="qcom,qcom_media,pdk-qcom" remote="mikuland" />
   <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" groups="qcom,qcom_display,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" groups="qcom,qcom_media,pdk-qcom" remote="miku" />
@@ -94,7 +94,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mikuland" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="mikuland" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="mikuland" />
-  <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" />
+  <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="mikuland" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="mikuland" />
