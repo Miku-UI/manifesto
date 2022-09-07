@@ -28,6 +28,25 @@
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="mikuland" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" />
 
+  <!-- HALs -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="mikuland" revision="TDA" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+  </project>
+
   <!-- Gcc -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="mikuland" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="mikuland" />
