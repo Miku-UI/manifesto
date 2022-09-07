@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- External -->
+  <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/chromium-webview" />
+
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
