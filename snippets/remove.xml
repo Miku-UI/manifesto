@@ -5,12 +5,6 @@
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google/atv" />
-  <remove-project name="device/google/barbet" />
-  <remove-project name="device/google/barbet-kernel" />
-  <remove-project name="device/google/barbet-sepolicy" />
-  <remove-project name="device/google/bonito" />
-  <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/contexthub" />
@@ -25,10 +19,6 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
-  <remove-project name="device/google/crosshatch" />
-  <remove-project name="device/google/crosshatch-kernel" />
-  <remove-project name="device/google/crosshatch-sepolicy" />
-  <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google_car" />
@@ -56,9 +46,5 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
-
-  <!-- Prebuilt -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
 </manifest>
