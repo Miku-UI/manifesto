@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="miku"
+           revision="snow"
+           fetch="https://github.com/Project-Mushroom" />
+
+  <remote  name="mikuland"
+	   revision="snowland"
+	   fetch="https://github.com/Miku-UI" />
+
+  <remote  name="arrow-gitlab"
+	   fetch="https://gitlab.com/arrowos-project"
+	   revision="refs/heads/arrow-12.1" />
+
+  <!-- CAF -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="mikuland" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="mikuland" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="mikuland" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="mikuland" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="mikuland" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="mikuland" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="mikuland" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="mikuland" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="mikuland" />
+  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" />
+
+  <!-- Gcc -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="mikuland" />
+
+  <!-- General -->
+  <project path="vendor/miku" name="platform_vendor_miku" remote="mikuland" />
+  <project path="vendor/settings" name="platform_vendor_settings" remote="mikuland" />
+
+  <!-- HALS -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_msm8996_display" groups="qcom,qcom_display,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_msm8996_media" groups="qcom,qcom_media,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" groups="qcom,qcom_display,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" groups="qcom,qcom_media,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="mikuland" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="mikuland" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="mikuland" />
+
+  <!-- Miku Settings -->
+  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="mikuland" />
+
+  <!-- Proton -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="mikuland" clone-depth="1" /> 
+
+  <!-- Themes -->
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="mikuland" />
+
+  <!-- GAPPS -->
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
+
+</manifest>
