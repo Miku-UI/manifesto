@@ -23,9 +23,10 @@
   <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="mikuland" />
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="mikuland" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="mikuland" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="mikuland" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="mikuland" revision="TDA" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="mikuland" revision="TDA" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="mikuland" revision="TDA" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="mikuland" revision="TDA" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" />
 
   <!-- HALs -->
