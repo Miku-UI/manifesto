@@ -66,7 +66,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="mikuland" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="mikuland" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="mikuland" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="mikuland" revision="TDA" />
 
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" />
