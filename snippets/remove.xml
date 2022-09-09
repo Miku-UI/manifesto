@@ -51,4 +51,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
+  <!-- System -->
+  <remove-project name="platform/system/libhidl" />
+
 </manifest>
