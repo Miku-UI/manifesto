@@ -4,6 +4,8 @@
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
