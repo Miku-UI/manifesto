@@ -60,7 +60,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="mikuland" />
 
   <!-- General -->
-  <project path="vendor/miku" name="platform_vendor_miku" remote="mikuland" />
+  <project path="vendor/miku" name="platform_vendor_miku" remote="mikuland" revision="TDA" />
   <project path="vendor/settings" name="platform_vendor_settings" remote="mikuland" />
 
   <!-- HALS -->
