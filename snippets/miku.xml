@@ -86,6 +86,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="mikuland" clone-depth="1" /> 
 
   <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="mikuland" revision="TDA" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="mikuland" revision="TDA" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="mikuland" revision="TDA" />
 
