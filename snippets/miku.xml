@@ -87,6 +87,7 @@
 
   <!-- System -->
   <project path="system/libhidl" name="platform_system_libhidl" remote="mikuland" revision="TDA" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="mikuland" revision="TDA" />
 
   <!-- Themes -->
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="mikuland" />
