@@ -31,9 +31,9 @@
 
   <!-- External -->
   <project path="external/libevdev" name="platform_external_libevdev" remote="mikuland" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" revision="TDA" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
-  <project path="external/selinux" name="platform_external_selinux" remote="mikuland" />
+  <project path="external/selinux" name="platform_external_selinux" remote="mikuland" revision="TDA" />
 
   <!-- HALs -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="mikuland" revision="TDA" >
