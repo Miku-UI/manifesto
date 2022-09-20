@@ -13,6 +13,21 @@
 	   fetch="https://gitlab.com/arrowos-project"
 	   revision="refs/heads/arrow-12.1" />
 
+  <!-- Build -->
+  <project path="build/make" name="platform_build" remote="mikuland" revision="TDA" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="mikuland" revision="TDA" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- CAF -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="mikuland" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="mikuland" />
@@ -35,6 +50,9 @@
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
   <project path="external/selinux" name="platform_external_selinux" remote="mikuland" revision="TDA" />
 
+  <!-- Framework -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="mikuland" revision="TDA" />
+
   <!-- HALs -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="mikuland" revision="TDA" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -53,6 +71,9 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
   </project>
+
+  <!-- Framework -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="mikuland" />
 
   <!-- Gcc -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="mikuland" />
@@ -78,9 +99,16 @@
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" />
 
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mikuland" revision="TDA" />
+  <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="mikuland" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="mikuland" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="mikuland" />
+
+  <!-- Providers -->
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="mikuland" revision="TDA" /> 
 
   <!-- Proton -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="mikuland" clone-depth="1" /> 

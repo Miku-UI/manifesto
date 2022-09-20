@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/chromium-webview" />
@@ -38,6 +42,9 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/base" />
+
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -52,6 +59,12 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- Providers -->
+  <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
