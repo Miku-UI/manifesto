@@ -97,7 +97,7 @@
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="mikuland" revision="TDA" />
 
   <!-- Miku Settings -->
-  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" />
+  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" revision="TDA" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mikuland" revision="TDA" />
