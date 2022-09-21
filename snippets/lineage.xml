@@ -8,7 +8,7 @@
   <!-- External -->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master"/>
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
 
   <!-- HALs -->
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-19.1-caf-sdm845" />
