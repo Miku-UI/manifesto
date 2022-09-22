@@ -72,9 +72,6 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
   </project>
 
-  <!-- Framework -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="mikuland" />
-
   <!-- Gcc -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="mikuland" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="mikuland" />
