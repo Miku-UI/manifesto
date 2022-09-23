@@ -54,7 +54,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="mikuland" revision="TDA" />
 
   <!-- HALs -->
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="mikuland" revision="TDA" >
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="mikuland" revision="TDA" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
