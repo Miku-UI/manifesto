@@ -93,6 +93,10 @@
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="mikuland" revision="TDA" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="mikuland" revision="TDA" />
 
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="mikuland" revision="TDA" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="mikuland" revision="TDA" />
+
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" revision="TDA" />
 

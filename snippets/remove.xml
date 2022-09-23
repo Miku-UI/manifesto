@@ -45,6 +45,10 @@
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
 
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
