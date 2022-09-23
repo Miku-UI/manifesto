@@ -42,7 +42,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="mikuland" revision="TDA" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="mikuland" revision="TDA" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="mikuland" revision="TDA" />
-  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" />
+  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" revision="TDA" />
 
   <!-- External -->
   <project path="external/libevdev" name="platform_external_libevdev" remote="mikuland" />
