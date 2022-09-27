@@ -101,7 +101,9 @@
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" revision="TDA" />
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="mikuland" revision="TDA" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mikuland" revision="TDA" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="mikuland" revision="TDA" />
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="mikuland" />
 
   <!-- Prebuilts -->

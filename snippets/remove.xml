@@ -65,7 +65,9 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
