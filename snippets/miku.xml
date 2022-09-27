@@ -122,7 +122,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="mikuland" revision="TDA" />
 
   <!-- Themes -->
-  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="mikuland" />
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="mikuland" revision="TDA" />
 
   <!-- GAPPS -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
