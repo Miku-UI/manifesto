@@ -45,6 +45,7 @@
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" revision="TDA" />
 
   <!-- External -->
+  <project path="external/dwarves" name="platform_external_dwarves" remote="mikuland" revision="TDA" />
   <project path="external/libevdev" name="platform_external_libevdev" remote="mikuland" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" revision="TDA" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
@@ -113,6 +114,7 @@
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="mikuland" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.15" />
   <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="mikuland" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="mikuland" />
 
