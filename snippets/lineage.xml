@@ -20,7 +20,6 @@
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-19.1-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt"  remote="lineage" revision="lineage-20.0-caf" />
-  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
 
   <!-- Telephony -->
