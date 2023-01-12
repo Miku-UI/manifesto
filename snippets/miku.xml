@@ -28,6 +28,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="mikuland" revision="TDA" />
+
   <!-- CAF -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="mikuland" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="mikuland" />
@@ -46,7 +49,9 @@
 
   <!-- External -->
   <project path="external/dwarves" name="platform_external_dwarves" remote="mikuland" revision="TDA" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="mikuland" revision="TDA" />
   <project path="external/libevdev" name="platform_external_libevdev" remote="mikuland" />
+  <project path="external/mksh" name="platform_external_mksh" remote="mikuland" revision="TDA" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" revision="TDA" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
   <project path="external/selinux" name="platform_external_selinux" remote="mikuland" revision="TDA" />

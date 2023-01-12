@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -8,6 +11,8 @@
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
 
