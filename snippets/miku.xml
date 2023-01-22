@@ -112,6 +112,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="mikuland" revision="TDA" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="mikuland" revision="TDA" />
+  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="mikuland" revision="TDA" />
 
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" revision="TDA" />
