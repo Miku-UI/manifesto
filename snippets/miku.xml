@@ -2,11 +2,7 @@
 <manifest>
 
   <remote  name="miku"
-           revision="snow"
-           fetch="https://github.com/Project-Mushroom" />
-
-  <remote  name="mikuland"
-	   revision="snowland"
+	   revision="TDA"
 	   fetch="https://github.com/Miku-UI" />
 
   <remote  name="arrow-gitlab"
@@ -14,7 +10,7 @@
 	   revision="refs/heads/arrow-13.0" />
 
   <!-- Build -->
-  <project path="build/make" name="platform_build" remote="mikuland" revision="TDA" >
+  <project path="build/make" name="platform_build" remote="miku" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -23,46 +19,46 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="mikuland" revision="TDA" >
+  <project path="build/soong" name="platform_build_soong" remote="miku" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Bootable -->
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="mikuland" revision="TDA" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="miku" />
 
   <!-- CAF -->
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="mikuland" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="mikuland" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="mikuland" revision="TDA" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="mikuland" revision="TDA" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="mikuland" />
-  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="mikuland" revision="TDA" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="mikuland" revision="TDA" />
-  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="mikuland" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="miku" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="miku" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="miku" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="miku" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
+  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="miku" />
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="mikuland" revision="TDA" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="mikuland" revision="TDA" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="mikuland" revision="TDA" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="mikuland" revision="TDA" />
-  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="mikuland" revision="TDA" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" />
+  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
 
   <!-- External -->
-  <project path="external/dwarves" name="platform_external_dwarves" remote="mikuland" revision="TDA" />
-  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="mikuland" revision="TDA" />
-  <project path="external/libevdev" name="platform_external_libevdev" remote="mikuland" />
-  <project path="external/mksh" name="platform_external_mksh" remote="mikuland" revision="TDA" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="mikuland" revision="TDA" />
-  <project path="external/tinyxml" name="platform_external_tinyxml" remote="mikuland" />
-  <project path="external/selinux" name="platform_external_selinux" remote="mikuland" revision="TDA" />
+  <project path="external/dwarves" name="platform_external_dwarves" remote="miku" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
+  <project path="external/libevdev" name="platform_external_libevdev" remote="miku" revision="snowland" />
+  <project path="external/mksh" name="platform_external_mksh" remote="miku" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" revision="snowland" />
+  <project path="external/selinux" name="platform_external_selinux" remote="miku" />
 
   <!-- Framework -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="mikuland" revision="TDA" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="mikuland" revision="TDA" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="miku" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="miku" />
 
   <!-- HALs -->
-  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="mikuland" revision="TDA" >
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="miku" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
@@ -85,63 +81,63 @@
   </project>
 
   <!-- Gcc -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="mikuland" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="mikuland" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="mikuland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="miku" revision="snowland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="miku" revision="snowland" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="miku" revision="snowland" />
 
   <!-- General -->
-  <project path="vendor/miku" name="platform_vendor_miku" remote="mikuland" revision="TDA" />
-  <project path="vendor/settings" name="platform_vendor_settings" remote="mikuland" />
+  <project path="vendor/miku" name="platform_vendor_miku" remote="miku" />
+  <project path="vendor/settings" name="platform_vendor_settings" remote="miku" revision="snowland" />
 
   <!-- HALS -->
-  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" />
-  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_msm8996_display" groups="qcom,qcom_display,pdk-qcom" remote="mikuland" />
-  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_msm8996_media" groups="qcom,qcom_media,pdk-qcom" remote="mikuland" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" revision="TDA"  />
-  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" groups="qcom,qcom_display,pdk-qcom" remote="mikuland" revision="TDA"  />
-  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" groups="qcom,qcom_media,pdk-qcom" remote="mikuland" revision="TDA"  />
-  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="mikuland" revision="TDA" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="mikuland" revision="TDA" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="snowland" />
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_msm8996_display" groups="qcom,qcom_display,pdk-qcom" remote="miku" revision="snowland" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom-caf_msm8996_media" groups="qcom,qcom_media,pdk-qcom" remote="miku" revision="snowland" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku"  />
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" groups="qcom,qcom_display,pdk-qcom" remote="miku"  />
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" groups="qcom,qcom_media,pdk-qcom" remote="miku"  />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
+  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="mikuland" revision="TDA" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="mikuland" revision="TDA" />
-  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="mikuland" revision="TDA" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="miku" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="miku" />
+  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" />
 
   <!-- Miku Settings -->
-  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="mikuland" revision="TDA" />
+  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" />
 
   <!-- Packages -->
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="mikuland" revision="TDA" />
-  <project path="packages/apps/mubb" name="platform_packages_apps_mubb" remote="mikuland" revision="TDA" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="mikuland" revision="TDA" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="mikuland" revision="TDA" />
-  <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="mikuland" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="miku" />
+  <project path="packages/apps/mubb" name="platform_packages_apps_mubb" remote="miku" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="miku" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="miku" />
+  <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" revision="snowland" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.15" />
-  <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="mikuland" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="mikuland" />
+  <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="miku" revision="snowland" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="miku" revision="snowland" />
 
   <!-- Providers -->
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="mikuland" revision="TDA" /> 
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
 
   <!-- Proton -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="mikuland" clone-depth="1" /> 
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
 
   <!-- System -->
-  <project path="system/core" name="platform_system_core" remote="mikuland" revision="TDA" />
-  <project path="system/libhidl" name="platform_system_libhidl" remote="mikuland" revision="TDA" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="mikuland" revision="TDA" />
+  <project path="system/core" name="platform_system_core" remote="miku" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="miku" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
 
   <!-- Themes -->
-  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="mikuland" revision="TDA" />
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="miku" />
 
   <!-- GAPPS -->
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
