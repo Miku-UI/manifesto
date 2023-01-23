@@ -30,6 +30,7 @@
 
   <!-- Qcom opensource -->
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
