@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Bionic -->
+  <remove-project name="platform/bionic" />
+
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
 

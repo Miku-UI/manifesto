@@ -9,6 +9,9 @@
 	   fetch="https://gitlab.com/arrowos-project"
 	   revision="refs/heads/arrow-13.0" />
 
+  <!-- Bionic -->
+  <project path="bionic" name="platform_bionic" remote="miku" />
+
   <!-- Build -->
   <project path="build/make" name="platform_build" remote="miku" >
     <copyfile src="core/root.mk" dest="Makefile" />
