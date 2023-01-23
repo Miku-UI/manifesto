@@ -52,6 +52,7 @@
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
