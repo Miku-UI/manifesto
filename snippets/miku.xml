@@ -57,6 +57,7 @@
   <project path="external/selinux" name="platform_external_selinux" remote="miku" />
 
   <!-- Framework -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="miku" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="miku" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="miku" />
 
