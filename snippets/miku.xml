@@ -4,6 +4,10 @@
   <remote  name="miku"
 	   revision="TDA"
 	   fetch="https://github.com/Miku-UI" />
+	
+  <remote  name="mikulab"
+	   revision="TDA"
+	   fetch="https://gitlab.com/Miku-UI" />
 
   <!-- Bionic -->
   <project path="bionic" name="platform_bionic" remote="miku" />
@@ -137,5 +141,8 @@
 
   <!-- Themes -->
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="miku" />
+	
+  <!-- GAPPS -->
+  <project path="vendor/gms" name="android_vendor_gms" remote="mikulab" />
 
 </manifest>
