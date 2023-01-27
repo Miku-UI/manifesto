@@ -49,7 +49,6 @@
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
 
   <!-- External -->
-  <project path="external/dwarves" name="platform_external_dwarves" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/libevdev" name="platform_external_libevdev" remote="miku" revision="snowland" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" />
@@ -125,7 +124,6 @@
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" revision="snowland" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.15" />
   <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="miku" revision="snowland" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="miku" revision="snowland" />
 
