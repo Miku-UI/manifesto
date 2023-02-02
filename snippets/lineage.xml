@@ -31,9 +31,6 @@
   <!-- Qcom opensource -->
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
-
-  <!-- Packages -->
-  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
