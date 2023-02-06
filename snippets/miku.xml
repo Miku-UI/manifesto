@@ -114,6 +114,9 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="miku" />
   <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" />
 
+  <!-- KernelSU -->
+  <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" />
+
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" />
 
