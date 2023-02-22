@@ -78,6 +78,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
