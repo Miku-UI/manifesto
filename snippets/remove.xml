@@ -13,6 +13,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />

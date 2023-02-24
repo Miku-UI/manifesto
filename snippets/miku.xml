@@ -50,6 +50,7 @@
 
   <!-- External -->
   <project path="external/dwarves" name="platform_external_dwarves" remote="miku" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="f3669fe94b327235b033c2b6a88a6a28d586cff8" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/libevdev" name="platform_external_libevdev" remote="miku" revision="snowland" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" />
