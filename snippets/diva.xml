@@ -7,5 +7,9 @@
 
     <remote name="diva-ssh"
         fetch="ssh://git@github.com/Diva-Room" />
+	
+    <remote name="divalab"
+	    revision="TDA"
+	    fetch="https://gitlab.com/Diva-Room" />
 
 </manifest>
