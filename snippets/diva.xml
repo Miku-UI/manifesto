@@ -5,17 +5,4 @@
 	    revision="TDA"
 	    fetch="https://github.com/Diva-Room" />
 
-    <!-- Official Devices -->
-    <project path="device/xiaomi/violet" name="Miku_device_xiaomi_violet" remote="diva" />
-    <project path="kernel/xiaomi/violet" name="Miku_kernel_xiaomi_violet" remote="diva" />
-    <project path="vendor/xiaomi/violet" name="Miku_vendor_xiaomi_violet" remote="diva" />
-    <project path="device/xiaomi/wayne" name="Miku_device_xiaomi_wayne" remote="diva" />
-    <project path="kernel/xiaomi/wayne" name="Miku_kernel_xiaomi_wayne" remote="diva" />
-    <project path="vendor/xiaomi/wayne" name="Miku_vendor_xiaomi_wayne" remote="diva" />
-
-    <!-- Community Devices -->
-    <project path="device/essential/mata" name="Miku_device_essential_mata" remote="diva" />
-    <project path="kernel/essential/msm8998" name="Miku_kernel_essential_msm8998" remote="diva" />
-    <project path="vendor/essential" name="Miku_vendor_essential" remote="diva" />
-
 </manifest>
