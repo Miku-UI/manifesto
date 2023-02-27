@@ -5,4 +5,7 @@
 	    revision="TDA"
 	    fetch="https://github.com/Diva-Room" />
 
+    <remote name="diva-ssh"
+        fetch="ssh://git@github.com/Diva-Room" />
+
 </manifest>
