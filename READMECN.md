@@ -62,7 +62,7 @@ sudo chmod a+x /bin/repo
 
 ```shell
 git config --global url.https://mirrors.bfsu.edu.cn/git/AOSP/.insteadof https://android.googlesource.com
-git config --global url.https://hub.fastgit.xyz/.insteadof https://github.com
+git config --global url.https://kgithub.com/.insteadof https://github.com
 echo "export REPO_URL='https://mirrors.bfsu.edu.cn/git/git-repo'" >> ~/.bashrc
 source ~/.bashrc
 ```
