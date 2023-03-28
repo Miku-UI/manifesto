@@ -12,4 +12,7 @@
 	    revision="TDA"
 	    fetch="https://gitlab.com/Diva-Room" />
 
+    <remote name="github"
+        fetch="https://github.com" />
+
 </manifest>
