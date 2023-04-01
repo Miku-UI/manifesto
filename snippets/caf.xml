@@ -2,8 +2,8 @@
 <manifest>
 
   <remote name="caf"
-          fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.UM.10.3.r1-00300-sdm845.0" />
+          fetch="https://git.codelinaro.org/clo/la/"
+          revision="refs/tags/LA.UM.10.3.r1-01700-sdm845.0" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf" />
