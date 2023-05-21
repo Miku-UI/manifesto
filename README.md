@@ -1,4 +1,4 @@
-[**中文版**](https://github.com/Miku-UI/manifesto/blob/TDA/READMECN.md)
+[**中文版**](https://github.com/Miku-UI/manifesto/blob/TDA/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/TDA/READMEJP.md)
 
 # Miku UI TDA
 
