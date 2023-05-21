@@ -4,17 +4,17 @@
 
 ![MikuUI](https://github.com/Miku-UI/manifesto/raw/TDA/img/MikuUI.png)
 
-Miku UI is an AOSP-Based Project focus on Performance and ... 
+Miku UI は AOSP ベースのプロジェクトです。パフォーマンス面にフォーカスしているのが特徴です ... 
 
-> **Miku？**
+> **ミク？**
 
-**How to Start！**
+**始め方！**
 
-Well...Are you a buildbot?
+えっと...キミはビルドボットなの？
 
-Then, check [**Our Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) before you start！
+それだったら始める前に [**Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) をチェックしてね！
 
-Sync Sourcecode
+ソースコードの同期
 ------------
 
 
@@ -28,19 +28,19 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 
-## Be Careful
+## 気をつけてね
 
-> If you are using an ify-only-Device Configuration for building Miku UI , DO NOT RELEASE IT, FOR OWN USE ONLY.
+> Miku UI のビルドに ify-only-Device Configuration を使用している場合はリリースをしないでください。個人で使ってください。
 >
-> And please DO NOT Public your ify-only-Device Configuration, respect the original author, plz.
+> あなたの ify-only-Device Configuration を公開しないでください。元の作者を尊重してください、お願いします。
 >
-> DO NOT RELEASE any build of Miku UI based on an ify-only-Device Configuration to any telegram channel or XDA Forum.
+> また、ify-only-Device Configuration に基づいた Miku UI のビルドを Telegram チャンネルや XDA で公開しないでください。
 > 
-> Bcz it's unstable with Miku UI and may lead problems!
+> 理由は Miku UI が不安定になり、問題を引き起こす可能性があるからです！
 
-After that let's ...
+それがわかったら、その後は ...
 
-## Start to build！！
+## ビルド開始っ！！
 
 ```shell
 # Init
@@ -54,7 +54,7 @@ make diva
 ```
 
 
-Credits
+クレジット
 -------
  * [**AOSP**](https://android.googlesource.com)
  * [**LineageOS**](https://github.com/LineageOS)
