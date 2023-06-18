@@ -12,7 +12,7 @@ Miku UI is an AOSP-Based Project focus on Performance and ...
 
 Well...Are you a buildbot?
 
-Then, check [**Our Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) before you start！
+Then, check [**Our Wiki**](https://github.com/Miku-UI/manifesto/wiki) before you start！
 
 Sync Sourcecode
 ------------

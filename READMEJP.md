@@ -12,7 +12,7 @@ Miku UI は AOSP ベースのプロジェクトです。パフォーマンス面
 
 えっと...キミはビルドボットなの？
 
-それだったら始める前に [**Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) をチェックしてね！
+それだったら始める前に [**Wiki**](https://github.com/Miku-UI/manifesto/wiki) をチェックしてね！
 
 ソースコードの同期
 ------------

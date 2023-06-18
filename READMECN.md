@@ -10,7 +10,7 @@ Miku UI 是一个基于 AOSP 的系统。专注于性能优化与......
 
 什么？你原来是个 BuildBot 吗！
 
-在开始前，请先看看我们的[**官方 Wiki**](https://github.com/Project-Mushroom/platform_manifest/wiki) ！
+在开始前，请先看看我们的[**官方 Wiki**](https://github.com/Miku-UI/manifesto/wiki) ！
 
 
 首先，确认好自己是否准备好了编译环境呢？
