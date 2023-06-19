@@ -133,6 +133,7 @@
   <project path="packages/apps/mubb" name="platform_packages_apps_mubb" remote="miku" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="miku" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="miku" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="miku" />
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" revision="snowland" />
   <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="miku" />
 
