@@ -64,6 +64,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="miku" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="miku" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="miku" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="miku" />
 
   <!-- HALs -->
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="miku" >
