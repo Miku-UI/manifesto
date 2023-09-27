@@ -59,6 +59,7 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" revision="snowland" />
   <project path="external/selinux" name="platform_external_selinux" remote="miku" />
+  <project path="external/webp" name="platform_external_webp" remote="miku" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="miku" />

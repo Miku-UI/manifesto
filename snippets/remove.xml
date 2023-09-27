@@ -19,6 +19,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/webp" />
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
