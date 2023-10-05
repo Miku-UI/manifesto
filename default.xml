@@ -1266,4 +1266,5 @@
   <include name="snippets/miku.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/caf.xml" />
+  <include name="snippets/diva.xml" />
 </manifest>
