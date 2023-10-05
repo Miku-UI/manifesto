@@ -53,4 +53,9 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- External -->
+  <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/erofs-utils" />
+  <remove-project name="platform/external/chromium-webview" />
+
 </manifest>
