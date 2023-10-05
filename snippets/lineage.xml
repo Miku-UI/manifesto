@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-20.0" />
+
+  <!-- External -->
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
+
+  <!-- HALs -->
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-20.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-20.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-20.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" revision="lineage-20.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" revision="lineage-20.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-20.0-caf-sm8250" />
+  
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-20.0-caf" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt"  remote="lineage" revision="lineage-20.0-caf" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
+
+  <!-- Telephony -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
+
+  <!-- Qcom opensource -->
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
+  
+  <!-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
+
+  <!-- Tools Repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+</manifest>

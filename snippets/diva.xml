@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="diva"
+	    revision="TDA"
+	    fetch="https://github.com/Diva-Room" />
+
+    <remote name="diva-ssh"
+        fetch="ssh://git@github.com/Diva-Room" />
+	
+    <remote name="divalab"
+	    revision="TDA"
+	    fetch="https://gitlab.com/Diva-Room" />
+
+    <remote name="github"
+        fetch="https://github.com" />
+
+</manifest>
