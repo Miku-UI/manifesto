@@ -1,4 +1,4 @@
-# Miku UI SnowLand
+# Miku UI Udon
 
 ![MikuUI](https://github.com/Miku-UI/manifesto/raw/Udon/img/MikuUI.png)
 
