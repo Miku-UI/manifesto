@@ -6,7 +6,7 @@
 	   fetch="https://github.com/Miku-UI" />
 	
   <remote  name="mikulab"
-	   revision="TDA"
+	   revision="Udon"
 	   fetch="https://gitlab.com/Miku-UI" />
 
   <!-- Bionic -->
@@ -147,6 +147,10 @@
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="miku" revision="TDA" />
 	
   <!-- GAPPS -->
-  <project path="vendor/gms" name="android_vendor_gms" remote="mikulab" />
+  <project path="vendor/gms/config" name="android_vendor_gms_config" remote="mikulab" >
+        <linkfile dest="vendor/gms/gms.mk" src="config.mk"/>
+  </project>
+  <project path="vendor/gms/extra" name="proprietary_vendor_gms_extra" remote="mikulab" />
+  <project path="vendor/gms/main" name="proprietary_vendor_gms_main" remote="mikulab" />
 
 </manifest>
