@@ -2,14 +2,15 @@
 <manifest>
 
     <remote name="diva"
-	    revision="TDA"
+	    revision="Udon"
 	    fetch="https://github.com/Diva-Room" />
 
     <remote name="diva-ssh"
+	    revision="Udon"
         fetch="ssh://git@github.com/Diva-Room" />
 	
     <remote name="divalab"
-	    revision="TDA"
+	    revision="Udon"
 	    fetch="https://gitlab.com/Diva-Room" />
 
     <remote name="github"
