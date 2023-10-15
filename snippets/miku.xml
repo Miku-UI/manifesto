@@ -3,7 +3,8 @@
 
   <remote  name="miku"
 	   revision="Udon"
-	   fetch="https://github.com/Miku-UI" />
+	   fetch="https://github.com/Miku-UI"
+	   review="https://android-review.googlesource.com/" />
 	
   <remote  name="mikulab"
 	   revision="Udon"
