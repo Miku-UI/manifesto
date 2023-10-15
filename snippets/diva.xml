@@ -3,15 +3,18 @@
 
     <remote name="diva"
 	    revision="Udon"
-	    fetch="https://github.com/Diva-Room" />
+	    fetch="https://github.com/Diva-Room"
+	    review="https://android-review.googlesource.com/" />
 
     <remote name="diva-ssh"
 	    revision="Udon"
-        fetch="ssh://git@github.com/Diva-Room" />
+        fetch="ssh://git@github.com/Diva-Room"
+	    review="https://android-review.googlesource.com/" />
 	
     <remote name="divalab"
 	    revision="Udon"
-	    fetch="https://gitlab.com/Diva-Room" />
+	    fetch="https://gitlab.com/Diva-Room"
+	    review="https://android-review.googlesource.com/" />
 
     <remote name="github"
         fetch="https://github.com" />
