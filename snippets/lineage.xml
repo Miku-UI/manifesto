@@ -15,6 +15,9 @@
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt"  remote="lineage" revision="lineage-20.0-caf" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
 
+  <!-- Kernel -->
+  <project path="kernel/configs" name="android_kernel_configs" remote="lineage" revision="lineage-21.0" />
+
   <!-- Telephony -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
 
