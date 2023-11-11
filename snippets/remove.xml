@@ -69,6 +69,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Permission" />
 
   <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
