@@ -20,6 +20,7 @@
 
   <!-- Qcom opensource -->
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
 
   <!-- Packages -->
