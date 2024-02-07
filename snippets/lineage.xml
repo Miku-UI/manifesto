@@ -3,7 +3,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-20.0" />
+          revision="lineage-21.0" />
 
   <!-- External -->
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
