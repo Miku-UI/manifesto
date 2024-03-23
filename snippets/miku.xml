@@ -121,9 +121,6 @@
   <!-- KernelSU -->
   <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" />
 
-  <!-- Kernel -->
-  <project path="kernel/configs" name="platform_kernel_configs" remote="miku" />
-
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" />
 
