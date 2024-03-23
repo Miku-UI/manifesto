@@ -146,7 +146,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
 
   <!-- System -->
-  <project path="system/bpf" name="platform_system_bpf" remote="miku" />
   <project path="system/core" name="platform_system_core" remote="miku" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
