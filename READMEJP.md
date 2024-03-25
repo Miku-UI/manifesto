@@ -19,7 +19,7 @@ Miku UI は AOSP ベースのプロジェクトです。パフォーマンス面
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Udon
+repo init -u https://github.com/Miku-UI/manifesto -b Udon_v2
 ```
 
 
@@ -47,7 +47,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Lunch
-lunch miku_[codename]-[build type]
+lunch miku_[codename]-[release]-[build type]
 
 # Make a diva !
 make diva

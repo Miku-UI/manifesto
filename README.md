@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Udon
+repo init -u https://github.com/Miku-UI/manifesto -b Udon_v2
 ```
 
 
@@ -47,7 +47,7 @@ After that let's ...
 . build/envsetup.sh
 
 # Lunch
-lunch miku_[codename]-[build type]
+lunch miku_[codename]-[release]-[build type]
 
 # Make a diva !
 make diva

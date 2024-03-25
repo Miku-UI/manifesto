@@ -94,7 +94,7 @@ cd ~/miku
 使用以下命令来初始化仓库：
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Udon
+repo init -u https://github.com/Miku-UI/manifesto -b Udon_v2
 ```
 
 开始同步源码：
@@ -153,7 +153,7 @@ source ~/.bashrc
 . build/envsetup.sh
 
 # 初始化编译设备
-lunch miku_[设备代号]-user
+lunch miku_[设备代号]-[release版本]-user
 
 # 开始编译属于你的 Miku UI (Diva) !
 make diva
