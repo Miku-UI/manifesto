@@ -121,6 +121,9 @@
   <!-- KernelSU -->
   <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" revision="Udon" />
 
+  <!-- Kernel -->
+  <project path="kernel/configs" name="platform_kernel_configs" remote="miku" />
+
   <!-- Miku Settings -->
   <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" />
 
@@ -130,6 +133,7 @@
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="miku" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="miku" />
   <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="miku" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="miku" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="miku" />
   <project path="packages/apps/mubb" name="platform_packages_apps_mubb" remote="miku" revision="TDA" />
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" />
@@ -146,6 +150,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
 
   <!-- System -->
+  <project path="system/bpf" name="platform_system_bpf" remote="miku" />
   <project path="system/core" name="platform_system_core" remote="miku" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
