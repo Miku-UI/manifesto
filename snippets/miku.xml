@@ -10,6 +10,9 @@
 	   revision="Udon_v2"
 	   fetch="https://gitlab.com/Miku-UI" />
 
+  <!-- Art -->
+  <project path="art" name="platform_art" remote="miku" />
+
   <!-- Bionic -->
   <project path="bionic" name="platform_bionic" remote="miku" />
 
