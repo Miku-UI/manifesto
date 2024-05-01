@@ -94,7 +94,7 @@ cd ~/miku
 使用以下命令来初始化仓库：
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Udon_v2
+repo init -u https://github.com/Miku-UI/manifesto -b Udon_v2 --git-lfs
 ```
 
 开始同步源码：
