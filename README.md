@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Vampire_v3
+repo init -u https://github.com/Miku-UI/manifesto -b Vampire_v3 --git-lfs
 ```
 
 
