@@ -124,6 +124,7 @@
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="platform_hardware_qcom-caf_sm8450_audio_primary-hal" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="miku" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
