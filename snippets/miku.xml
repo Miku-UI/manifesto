@@ -166,6 +166,9 @@
   <!-- Proton -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
 
+  <!-- Qcom opensource -->
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" />
+
   <!-- System -->
   <project path="system/bpf" name="platform_system_bpf" remote="miku" />
   <project path="system/core" name="platform_system_core" remote="miku" />
