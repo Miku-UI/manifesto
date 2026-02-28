@@ -18,6 +18,7 @@
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/generic/common" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/trout" />

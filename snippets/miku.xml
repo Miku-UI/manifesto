@@ -46,6 +46,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
 
   <!-- Device -->
+  <project path="device/generic/common" name="platform_device_generic_common" remote="miku" />
   <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" />
