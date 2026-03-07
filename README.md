@@ -68,6 +68,6 @@ The following guide is for arm64 phone, more available selections [check here](h
 # Lunch
 lunch miku_gsi_phone_arm64-[release]-[build type]
 
-# Make a diva !
-make diva
+# Make GSI !
+make systemimage
 ```

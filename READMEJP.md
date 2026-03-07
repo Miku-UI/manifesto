@@ -70,6 +70,6 @@ make diva
 # Lunch
 lunch miku_gsi_phone_arm64-[release]-[build type]
 
-# Make a diva !
-make diva
+# Make GSI !
+make systemimage
 ```
