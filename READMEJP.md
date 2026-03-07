@@ -52,3 +52,24 @@ lunch miku_[codename]-[release]-[build type]
 # Make a diva !
 make diva
 ```
+
+## GSI ビルドガイド
+
+ソースコードを変更していない限り、いつでも Miku UI の GSI イメージをビルドすることができます。そうしてビルドされた GSI は、公式サーバーでコンパイルされた GSI（署名を除く）と完全に同一になります！
+
+常に最新の変更を体験したい場合は、ぜひ 手動でビルドしてみてください〜
+
+ここでは、ARM64 スマートフォン向けの GSI ビルドを例に説明します。
+対応しているその他のバリエーションについては、[こちらをご覧ください](https://github.com/Miku-UI/manifesto/wiki/English-Wiki#about-gsi-build-target)
+。
+
+```shell
+# Init
+. build/envsetup.sh
+
+# Lunch
+lunch miku_gsi_phone_arm64-[release]-[build type]
+
+# Make a diva !
+make diva
+```

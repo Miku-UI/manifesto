@@ -158,3 +158,22 @@ lunch miku_[设备代号]-[release版本]-user
 # 开始编译属于你的 Miku UI (Diva) !
 make diva
 ```
+
+## GSI 构建指南
+
+您随时可以构建 Miku UI GSI 镜像，只要未修改源代码，它将与从官方服务器编译的 GSI 完全相同（签名除外）！
+
+如果想要时刻体验到最新的更改的话，那就尝试手动编译它吧~
+
+接下来我们用适用于 ARM64 手机的 GSI 构建来举例，支持的更多变体[请看这里](https://github.com/Miku-UI/manifesto/wiki#gsi-%E6%9E%84%E5%BB%BA%E7%9B%AE%E6%A0%87%E7%9B%B8%E5%85%B3)
+
+```shell
+# Init
+. build/envsetup.sh
+
+# Lunch
+lunch miku_gsi_phone_arm64-[release]-[build type]
+
+# Make a diva !
+make diva
+```
