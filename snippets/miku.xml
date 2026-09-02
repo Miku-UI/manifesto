@@ -7,8 +7,8 @@
 	   review="https://android-review.googlesource.com/" />
 	
   <remote  name="mind"
-	   revision="vic"
-	   fetch="https://gitlab.com/MindTheGapps" />
+	   revision="baklava"
+	   fetch="https://github.com/MindTheGapps" />
 
   <!-- Art -->
   <project path="art" name="platform_art" remote="miku" />
