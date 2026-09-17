@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="miku"
-	   revision="Blooming_v2"
+	   revision="Cinderella"
 	   fetch="https://github.com/Miku-UI"
 	   review="https://android-review.googlesource.com/" />
 	
