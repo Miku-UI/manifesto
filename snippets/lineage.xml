@@ -10,7 +10,8 @@
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
 
   <!-- HALs -->
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" revision="lineage-24.0" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" revision="lineage-24.0" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-23.2-caf" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt"  remote="lineage" revision="lineage-23.2-caf" />
 
