@@ -28,7 +28,7 @@
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,lanai-vendor" remote="lineage" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,lanai-vendor" remote="lineage" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-24.0" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
