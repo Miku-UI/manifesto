@@ -53,7 +53,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr_sm8450" remote="miku" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="platform_device_qcom_sepolicy_vndr_sm8550" remote="miku" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
-  <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" revision="Blooming" />
+  <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" />
 
   <!-- External -->
   <project path="external/dng_sdk" name="platform_external_dng_sdk" remote="miku" />
@@ -107,7 +107,7 @@
 
   <!-- General -->
   <project path="vendor/miku" name="platform_vendor_miku" remote="miku" />
-  <project path="vendor/settings" name="platform_vendor_settings" remote="miku" revision="snowland" />
+  <project path="vendor/settings" name="platform_vendor_settings" remote="miku" />
 
   <!-- HALS -->
   <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Blooming" />
