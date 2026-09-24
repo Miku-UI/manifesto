@@ -1,8 +1,8 @@
-[**中文版**](https://github.com/Miku-UI/manifesto/blob/Blooming_v2/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/Blooming_v2/READMEJP.md)
+[**中文版**](https://github.com/Miku-UI/manifesto/blob/Cinderella/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/Cinderella/READMEJP.md)
 
-# Miku UI Blooming V2
+# Miku UI Cinderella
 
-![MikuUI](https://github.com/Miku-UI/manifesto/raw/Blooming_v2/img/MikuUI.webp)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/Cinderella/img/MikuUI.webp)
 
 Miku UI is an AOSP-Based Project focus on Performance and ... 
 
@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Blooming_v2 --git-lfs
+repo init -u https://github.com/Miku-UI/manifesto -b Cinderella --git-lfs
 ```
 
 

@@ -1,6 +1,6 @@
-# Miku UI Blooming V2
+# Miku UI Cinderella
 
-![MikuUI](https://github.com/Miku-UI/manifesto/raw/Blooming_v2/img/MikuUI.webp)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/Cinderella/img/MikuUI.webp)
 
 Miku UI 是一个基于 AOSP 的系统。专注于性能优化与......
 
@@ -94,7 +94,7 @@ cd ~/miku
 使用以下命令来初始化仓库：
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Blooming_v2 --git-lfs
+repo init -u https://github.com/Miku-UI/manifesto -b Cinderella --git-lfs
 ```
 
 开始同步源码：
