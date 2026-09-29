@@ -183,6 +183,8 @@
   <project path="system/core" name="platform_system_core" remote="miku" />
   <project path="system/extras" name="platform_system_extras" remote="miku" />
   <project path="system/fs/fs_mgr" name="platform_system_fs_fs_mgr" remote="miku" />
+  <project path="system/memory/libdmabufheap" name="platform_system_memory_libdmabufheap" remote="miku" />
+  <project path="system/memory/libion" name="platform_system_memory_libion" remote="miku" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="miku" />
   <project path="system/vold" name="platform_system_vold" remote="miku" />
 
