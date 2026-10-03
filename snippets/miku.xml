@@ -30,6 +30,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/tui" name="platform_build_tui" remote="miku" >
+    <linkfile src="main.py" dest="build_miku.py" />
+  </project>
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="miku" />
