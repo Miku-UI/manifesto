@@ -1117,10 +1117,10 @@
 
   <!-- Miku UI -->
   <include name="snippets/remove.xml" />
+  <include name="snippets/diva.xml" />
   <include name="snippets/miku.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/caf.xml" />
-  <include name="snippets/diva.xml" />
 
   <!-- END open-source projects -->
 
