@@ -2,22 +2,22 @@
 <manifest>
 
     <remote name="diva"
-        revision="Blooming_v2"
+        revision="Cinderella"
         fetch="https://github.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
 
     <remote name="diva-ssh"
-        revision="Blooming_v2"
+        revision="Cinderella"
         fetch="ssh://git@github.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
 
     <remote name="divalab"
-        revision="Blooming_v2"
+        revision="Cinderella"
         fetch="https://gitlab.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
         
     <remote name="divalab-ssh"
-        revision="Blooming_v2"
+        revision="Cinderella"
         fetch="ssh://git@gitlab.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
 
