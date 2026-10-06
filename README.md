@@ -42,6 +42,34 @@ After that let's ...
 
 ## Start to build！！
 
+### Try Miku UI Build System TUI!
+
+```shell
+./build_miku.py
+```
+
+If you encounter any errors or the TUI fails to run, please check that all required dependencies have been installed properly! The minimum Python version required by the Miku UI Build System TUI is Python 3.9.
+
+#### Install Dependencies
+
+```shell
+sudo apt-get update
+sudo apt-get install -y \
+  python3 \
+  python3-curses \
+  libncursesw6 \
+  ncurses-term \
+  bash \
+  locales \
+  git \
+  git-lfs \
+  ccache \
+  xclip \
+  wl-clipboard
+```
+
+### Legacy way
+
 ```shell
 # Init
 . build/envsetup.sh
@@ -53,7 +81,7 @@ lunch miku_[codename]-[release]-[build type]
 make diva
 ```
 
-## GSI Building Guide
+## GSI Building Guide (Legacy)
 
 You can build a GSI image at any time, and as long as you haven't modified the source code, it will be identical to the GSI compiled from the official server (except for the signature)!
 

@@ -42,6 +42,38 @@ repo sync -c --force-sync --no-clone-bundle --no-tags
 
 ## ビルド開始っ！！
 
+### Miku UI Build System TUI を試してみよう！
+
+完全にグラフィカルなビルドインターフェースです。ぜひ試してみてください！
+Miku UI のソースコードのルートディレクトリで、以下を実行します：
+
+```shell
+./build_miku.py
+```
+
+エラーが発生したり、起動できなかったりする場合は、必要な依存関係がすべてインストールされているか確認してください！
+Miku UI Build System TUI が要求する Python の最低バージョンは 3.9 です。
+
+#### 依存関係のインストール
+
+```shell
+sudo apt-get update
+sudo apt-get install -y \
+  python3 \
+  python3-curses \
+  libncursesw6 \
+  ncurses-term \
+  bash \
+  locales \
+  git \
+  git-lfs \
+  ccache \
+  xclip \
+  wl-clipboard
+```
+
+### 従来の方法
+
 ```shell
 # Init
 . build/envsetup.sh
@@ -53,7 +85,7 @@ lunch miku_[codename]-[release]-[build type]
 make diva
 ```
 
-## GSI ビルドガイド
+## GSI ビルドガイド（古い内容です。Miku UI Build System TUI を使用してください）
 
 ソースコードを変更していない限り、いつでも Miku UI の GSI イメージをビルドすることができます。そうしてビルドされた GSI は、公式サーバーでコンパイルされた GSI（署名を除く）と完全に同一になります！
 

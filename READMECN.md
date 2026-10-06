@@ -132,7 +132,35 @@ repo sync -c --force-sync --no-clone-bundle --no-tags
 
 ## 开始编译！！
 
-* 可选
+### 试试 Miku UI Build System TUI！
+
+完全图形化的编译界面，一起来试试叭！在 Miku UI 源码的根目录下执行：
+
+```shell
+./build_miku.py
+```
+
+如果遇到了报错或者打不开的情况，请检查一下依赖是否都已经安装好了哦！Miku UI Build System TUI 要求的最低 python 版本为 3.9。
+
+#### 安装依赖
+
+```shell
+sudo apt-get update
+sudo apt-get install -y \
+  python3 \
+  python3-curses \
+  libncursesw6 \
+  ncurses-term \
+  bash \
+  locales \
+  git \
+  git-lfs \
+  ccache \
+  xclip \
+  wl-clipboard
+```
+
+### 传统方法
 
 使用 ccache 可以加快再次编译速度哦！为什么不试试嘛
 
@@ -159,7 +187,7 @@ lunch miku_[设备代号]-[release版本]-user
 make diva
 ```
 
-## GSI 构建指南
+## GSI 构建指南（已过时，请使用 Miku UI Build System TUI）
 
 您随时可以构建 Miku UI GSI 镜像，只要未修改源代码，它将与从官方服务器编译的 GSI 完全相同（签名除外）！
 
