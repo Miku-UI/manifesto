@@ -60,7 +60,6 @@ Miku UI Build System TUI が要求する Python の最低バージョンは 3.9 
 sudo apt-get update
 sudo apt-get install -y \
   python3 \
-  python3-curses \
   libncursesw6 \
   ncurses-term \
   bash \

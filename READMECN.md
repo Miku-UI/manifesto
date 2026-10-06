@@ -148,7 +148,6 @@ repo sync -c --force-sync --no-clone-bundle --no-tags
 sudo apt-get update
 sudo apt-get install -y \
   python3 \
-  python3-curses \
   libncursesw6 \
   ncurses-term \
   bash \

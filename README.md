@@ -56,7 +56,6 @@ If you encounter any errors or the TUI fails to run, please check that all requi
 sudo apt-get update
 sudo apt-get install -y \
   python3 \
-  python3-curses \
   libncursesw6 \
   ncurses-term \
   bash \
