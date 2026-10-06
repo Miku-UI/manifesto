@@ -48,6 +48,14 @@ After that let's ...
 ./build_miku.py
 ```
 
+TUI can be used entirely with a mouse!
+
+#### Note
+
+TUI conflicts with the `screen` command. Please do **not** run TUI inside `screen`!
+
+TUI already supports minimizing by itself (just click the minimize button in the upper-right corner)!
+
 If you encounter any errors or the TUI fails to run, please check that all required dependencies have been installed properly! The minimum Python version required by the Miku UI Build System TUI is Python 3.9.
 
 #### Install Dependencies

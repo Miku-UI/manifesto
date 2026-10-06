@@ -140,6 +140,12 @@ repo sync -c --force-sync --no-clone-bundle --no-tags
 ./build_miku.py
 ```
 
+TUI 支持纯鼠标操作哦！
+
+#### 注意
+
+TUI 与 `screen` 命令冲突，请不要在 `screen` 内运行 TUI！TUI自身是支持最小化的哦（右上角最小化按钮）！
+
 如果遇到了报错或者打不开的情况，请检查一下依赖是否都已经安装好了哦！Miku UI Build System TUI 要求的最低 python 版本为 3.9。
 
 #### 安装依赖
