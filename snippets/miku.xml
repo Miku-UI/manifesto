@@ -157,7 +157,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="miku" />
-  <project path="packages/apps/Miku/SystemUI" name="platform_packages_apps_Miku_SystemUI" remote="miku" />
+  <project path="packages/apps/MikuSystemUI" name="platform_packages_apps_MikuSystemUI" remote="miku" />
   <project path="packages/apps/MikuUILyricsStubDummy" name="platform_packages_apps_MikuUILyricsStubDummy" remote="miku" revision="master" />
   <project path="packages/apps/MikuUIMusicCenter" name="platform_packages_apps_MikuUIMusicCenter" remote="miku" revision="master" clone-depth="1" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="miku" />
