@@ -34,6 +34,7 @@
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="lineage" />
+  <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" remote="lineage" revision="lineage-24.0" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   
   <!-- Prebuilts -->
