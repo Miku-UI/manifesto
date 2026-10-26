@@ -110,6 +110,7 @@
 
   <!-- General -->
   <project path="vendor/miku" name="platform_vendor_miku" remote="miku" />
+  <project path="vendor/patchset" name="platform_vendor_patchset" remote="miku" />
   <project path="vendor/settings" name="platform_vendor_settings" remote="miku" />
 
   <!-- HALS -->
